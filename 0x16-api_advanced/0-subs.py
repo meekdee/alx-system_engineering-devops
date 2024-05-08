@@ -7,6 +7,7 @@ import json
 import requests
 import sys
 
+
 def number_of_subscribers(subreddit):
 
     """Return the total number of subscribers on a given subreddit."""
