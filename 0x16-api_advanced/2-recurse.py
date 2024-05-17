@@ -17,6 +17,7 @@ v1.0.0 (by /u/firdaus_cartoon_jr)"
     }
     response = requests.get(url, headers=headers, params=params,
                             allow_redirects=False)
+
     if response.status_code == 404:
         return None
 
